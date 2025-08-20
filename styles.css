@@ -1,0 +1,14 @@
+nav {
+    display: flex;
+}
+ul {
+    display: flex;
+    justify-content: right;
+}
+.logo {
+    margin-left: 7%;
+    margin-right: auto;
+}
+.menus {
+    padding-left: 10%;
+}
