@@ -13,7 +13,11 @@ header {
   display: flex; 
   align-items: center; 
   justify-content: space-between; 
-  padding: 10px 20px;
+  padding: 20px;
+}
+
+header h1 {
+    margin-left: 95px;
 }
 
 nav ul {
@@ -42,6 +46,7 @@ nav ul li a {
   padding: 0;
 }
 
+/*
 .intro {
     margin: auto;
     border-radius: 12px;
@@ -49,4 +54,67 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     justify-content: left;
+}
+*/
+
+/* ai stuff */
+#main {
+  display: flex;
+  gap: 40px; /* space between sections */
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+#main > div {
+  border-radius: 12px;
+  padding: 24px;
+  min-width: 220px;
+  max-width: 260px;
+  text-align: center;
+  flex: 220px;
+}
+
+#main img {
+  width: 100%;
+  max-width: 180px;
+  max-height: 300px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+#main .intro {
+  max-width: 400px;
+  max-height: fit-content;
+  text-align: left;
+  padding-left: 80px;
+}
+
+#main > div > div {
+  margin-top: 8px;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #2d7a2d;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 70px;
+    line-height: 0.9;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+#main .intro p {
+    font-size: 20px;
+}
+
+#main .intro a {
+    font-size: 20px;
+    color: black;
+    letter-spacing: 1px;
 }
